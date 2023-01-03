@@ -31,8 +31,8 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
 #import os
 #os.chdir('C:\\Users\\Shubham\\Downloads\\datasets\\IPL 2008-2019')
 
-#pipe = pd.read_pickle('pipe.pkl')
-pipe = pickle.load(open('pipe.pkl','rb'))
+pipe = pd.read_pickle('pipe.pkl')
+#pipe = pickle.load(open('pipe.pkl','rb'))
 st.title('IPL Win Predictor')
 
 col1,col2 = st.columns(2)
